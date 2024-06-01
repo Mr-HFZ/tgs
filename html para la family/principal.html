@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Tesla</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 10px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .componente {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .logo img {
+            max-height: 50px;
+        }
+        .menuNav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .menuNav ul li {
+            margin: 0 15px;
+        }
+        .menuNav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .foto img {
+            max-width: 100%;
+            height: auto;
+        }
+        .menuNavdos {
+            background-color: #f0f0f0;
+            padding: 40px 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .menuNavdos .menuLink {
+            display: inline-block;
+            margin: 0 15px;
+        }
+        .menuNavdos .menuLink a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="componente">
+            <div class="logo"><img src="logotesla.png" alt="Tesla" class="imagentesla"></div>
+            <div class="menu">
+                <nav class="menuNav">
+                    <ul>
+                        <li class="menuLink"><a href="principal.html">Inicio</a></li>
+                        <li class="menuLink"><a href="formulario.html">Soporte</a></li>
+                        <li class="menuLink"><a href="index.html">Cerrar Sesión</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div class="foto">
+        <img src="images.png" alt="Tesla" class="fotoimg">
+        
+    </div>
+    <div class="menuNavdos">
+        <div class="menuLink"><a href="novedades.html">Novedades</a></div>
+        <div class="menuLink"><a href="organizacion.html">Organización</a></div>
+        <div class="menuLink"><a href="ayuda.html">Ayuda</a></div>
+    </div>
+</body>
+</html>

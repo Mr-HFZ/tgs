@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Organización</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 10px 40px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+        .logo img {
+            max-height: 40px;
+        }
+        .menuNav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+        .menuNav ul li {
+            margin: 0 15px;
+        }
+        .menuNav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        .org {
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+            display: block;
+        }
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .accordion-item {
+            border: none;
+            background-color: #f8f8f8;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .accordion-button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 15px;
+            text-align: left;
+            width: 100%;
+            font-weight: bold;
+        }
+        .accordion-button:not(.collapsed) {
+            background-color: #0056b3;
+        }
+        .accordion-body {
+            background-color: #ffffff;
+            border-radius: 0 0 5px 5px;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo"><img src="logotesla.png" alt="Tesla" class="imagentesla"></div>
+            <nav class="menuNav">
+                <ul class="d-flex">
+                    <li><a href="principal.html">Inicio</a></li>
+                    <li><a href="soporte.html">Soporte</a></li>
+                    <li><a href="salir.html">Cerrar Sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <img src="organigrama.jpg" alt="Organigrama de Tesla" class="org">
+        <div class="accordion-group">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                        Misión y Visión de Tesla
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <strong>Misión:</strong> Acelerar la transición del mundo hacia la energía sostenible.<br>
+                        <strong>Visión:</strong> Crear la compañía de energía más convincente del siglo XXI al impulsar la transición del mundo hacia los vehículos eléctricos y las soluciones energéticas sostenibles.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                        Atributos de Tesla
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Los atributos clave de Tesla incluyen innovación, sostenibilidad, eficiencia energética, liderazgo en tecnología de vehículos eléctricos, y compromiso con el diseño y la ingeniería de alta calidad.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                        Valor Corporativo
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        Tesla valora la innovación constante, el compromiso con la sostenibilidad, la responsabilidad ambiental y el deseo de impactar positivamente en el mundo mediante el desarrollo de tecnologías avanzadas y soluciones energéticas.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,623 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    /* background-color: #5e96e376; */
+    background-color: #ffffff;
+    /* background: -webkit-linear-gradient(#5e96e376, #eee); */
+    padding: 10px;
+    text-align: center;
+    /* color: black; */
+    filter: drop-shadow(0 0 0.75rem #5e96e376);
+  }
+  header h1{
+    font-size: 60px;
+    font-family: 'Hedvig Letters Serif', serif;
+    /* color: black; */
+
+    background: -webkit-linear-gradient(#eee, #f10404);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    filter: drop-shadow(0 0 0.75rem rgba(248, 2, 2, 0.3));
+    text-transform: capitalize;
+  }
+
+  .titulo_menu{
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-size: 35px;
+    font-family: 'Hedvig Letters Serif', serif;
+    color: #000;
+
+  }
+
+  nav {
+    background-color: #555;
+    /* background-color: #999999; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul {
+    width: 100%;
+    /* border: 1px solid #0000; */
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+    /* border: 1px solid #000; */
+  }
+
+  .link-menu{
+    width: 20%;
+    /* border: 1px solid #000; */
+  }
+
+  .link-menu li{
+    width: 100%;
+    margin: 15px;
+    padding: 8px;
+    /* border: 1px solid #000; */
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    /* padding: 5px; */
+  }
+
+  .link-menu a{
+    width: 100%;
+    margin: -7px;
+    font-size: 18px;
+    padding: 3px;
+
+   
+  }
+
+  .link-menu a:hover{ 
+    background-color: rgb(137, 136, 136);
+    color: #000;
+    padding: 10px;
+  }
+
+ 
+
+  a:hover{ 
+    /* background-color: rgb(137, 136, 136); */
+    color: #000;
+
+  }
+
+
+  .menu-icon {
+    display: none; /* Oculta el icono en pantallas grandes */
+    cursor: pointer;
+    font-size: 24px;
+    margin-left: 10px;
+    color: white;
+    font-size: 32px;
+  }
+
+  .responsive{
+      background-color: #555;
+  }
+
+
+  /* estolo de tarjeta */
+
+  .body{
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    padding: 0;
+    background-color: #f4f4f4;
+    /* display: flex; */
+    /* gap: 20px;
+    align-items: center;
+    justify-content: center;
+    min-height: 10vh; */
+  }
+
+  .card {
+    max-width: 300px;
+    width: 100%;
+    background-color: #fff;
+    /* background: -webkit-linear-gradient(#eee, #5e96e376); */
+    border-radius: 8px;
+    margin: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-content {
+    padding: 16px;
+  }
+
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+
+  .card-description {
+    font-size: 14px;
+    color: #555;
+  }
+
+  .carta-uno{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .card{
+    display: grid;
+    grid-template-columns: repeat(
+        auto-fit,
+        minmax(
+            150px,
+            1fr
+        )
+    );
+  }
+
+  .link-usuario{
+    width: 100%;
+    margin-top: 15px;
+    margin-left: 10%;
+    /* border: 1px solid #000; */
+    text-align: end;
+    text-transform: capitalize;
+  }
+
+  .link-acces{
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+
+  /* Estilos para pantallas más pequeñas (responsive) */
+  @media screen and (max-width: 600px) {
+    .menu-icon {
+      display: block; /* Muestra el icono en pantallas pequeñas */
+    }
+
+    ul {
+        width: 100%;
+      flex-direction: column;
+      align-items: center;
+      display: none; /* Oculta el menú en pantallas pequeñas por defecto */
+    
+      transition: max-height 0.5s ease-out; /* Transición suave */
+      max-height: 550px; /* Altura máxima inicial, puedes ajustar según sea necesario */
+      overflow: hidden;
+    }
+
+    ul.show {
+      display: flex; /* Muestra el menú cuando la clase 'show' está presente */
+    }
+
+    .link-menu {
+        width: 100%;
+        /* border: 1px solid #000; */
+      }
+      .pedidos{
+        padding-bottom: 16px;
+      }
+    
+      .link-menu:hover{ 
+        background-color: rgb(137, 136, 136);
+        color: #000;
+      }
+      a:hover{ 
+        color: #000;
+      }
+
+      .link-usuario{
+        margin-right: 54%;
+        margin-top: 10px;
+        text-transform: capitalize;
+        /* text-align: start; */
+      }
+
+      .carta-uno{
+        display: block;
+      }
+
+      .card img{
+        margin: auto;
+
+        margin-bottom: 15px;
+        max-width: 400px;
+        width: 100%;
+        background-color: #f8f5f5;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease-in-out;
+      }
+
+      .botonCarrito {
+        width: 100%;
+        padding: 12px;
+        background-color: #3498db;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+  }
+
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    filter: drop-shadow(0 0 73rem #000);
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
+    overflow: hidden;
+    width: 500px;
+}
+
+.login-form {
+    padding: 20px;
+}
+
+h1 {
+    /* text-align: center; */
+    text-align: start;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 50%;
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.boton_cancelar{
+  border: 1px solid #000;
+  width: 100%;
+  margin-top: 5px;
+}
+
+
+
+
+/* estilo de la pagina principal */
+
+.titulo{
+  width: 100%;
+  /* padding: 10px; */
+  margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: lightgray;
+  text-align: center;
+}
+
+/* estilo pedidos */
+
+.carta_pedidos{
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  filter: drop-shadow(2px 2px 2px #000);
+  background-color: lightgray;
+  margin-bottom: 15px;
+}
+
+.border{
+  border-radius: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.filtro{
+  display: none;
+}
+
+.articulos{
+  width: 100%;
+  /* border: 1px solid #000; */
+  padding: 10px;
+}
+
+.articulo{
+  width: 100%;
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color:  #f6f9fc;
+  filter: drop-shadow(0 0 0.75rem #000);
+  /* display: flex; */
+}
+
+.articulos-inventario{
+  width: 100%;
+  border: 1px solid #000;
+  padding: 10px;
+  margin-top: 10px;
+  /* filter: drop-shadow(0 0 0.75rem #000); */
+}
+
+.title{
+  border-bottom: 2px solid #000;
+}
+
+.titulos{
+  font-size: 18px;
+  text-align: start;
+}
+
+/* table, thead, th, tr, tbody, td{
+  border: 1px solid #000;
+} */
+
+.carrito{
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.boton{
+  margin-top: 20px;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid green;
+  color: black;
+  transition: all 1.5s;
+}
+
+.boton:hover{
+  background-color: green;
+  color: #fff;
+  transition: all 1.5s;
+} 
+
+#iconos{
+  text-align: center;
+}
+  
+
+/* estilo imagen */
+
+.imagen{
+  width: 30px; 
+  height: 70px;
+  background-color: rgba(0,0,255,.1)
+}
+
+.imagen_menu{
+  width: 70px; 
+  height: 70px;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 0.75rem #000);
+  margin-right: 15px;
+}
+.imagen_modal{
+  width: 100%; 
+  height: 50vh;
+}
+
+a span{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nombre_titulo{
+  font-weight: 200;
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+.precio{
+  font-weight: bold;
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+.btn{
+  font-size: 25px;
+}
+
+.agregar{
+  color: #000;
+  border: 1px solid blue;
+  border-radius: 20px;
+  padding: 10px;
+  font-size: 18px;
+
+  transition: all 1s;
+}
+
+.agregar:hover{
+  background-color: blue;
+  color: #fff;
+  border-radius: 20px;
+  transition: all 1.5s;
+}
+
+/* estilo de carrito de compra */
+.boton_modal{
+  width: 30%;
+  background-color: green;
+  font-size: 18px;
+}
+.boton_modal_dos{
+  font-size: 18px;
+}
+.carritos{
+  font-size: 18px;
+  display: block;
+  transition: all 1s;
+}
+.carritos:hover{
+  display: none;
+  transition: all 1.5s;
+}
+
+.detalles{
+  /* border: 1px solid #000; */
+  padding: 5px;
+}
+.titulo_detalle{
+  margin-top: 10px;
+  
+}
+
+.like{
+  font-size: 20px;
+}
+
+.mostrar{
+  /* padding: 10px; */
+  text-align: center;
+  cursor: pointer;
+}
+
+.mostrar_menu{
+  display: block;
+}
+
+.mostrar_menu{
+  margin-top: -20px;
+}
+
+#mostrar{
+  /* display: none; */
+
+  transition: opacity 0.5s ease, max-height 0.5s ease;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+}
+
+#boton{
+  cursor: pointer;
+  color: white;
+}
+
+
+.paginador{
+  border-radius: 50%;
+  filter: drop-shadow(0 0 0.75rem #0000);
+  font-size: 14px;
+}
+
+/* .botonCarrito{
+  border-radius: 50px;
+  width: 70%;
+} */
+
+header{
+  background-color: #000;
+  padding: 10px;
+  height: 50px;
+}
+
+.componente{
+  display: flex;
+}
+
+.imagentesla{
+  width: 100px;
+}
+
+.menu{
+  /* background-color: #f10404; */
+  width: 100%;
+}
+
+.menuNav{
+  background-color: transparent;
+}
+
+.menuNavdos{
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+}
+
+.menuLink{
+  margin-left: 200px;
+  margin: auto;
+}
+
+.foto{
+  margin-top: 50px;
+  /* border: 1px solid #000; */
+  height: 60vh;
+}
+
+.fotoimg{
+  /* justify-content: center; */
+  /* width: 300px; */
+  height: 60vh;
+}
+
+
+.org{
+margin-left: 900px;
+margin-top: 170px;
+width: 800px;
+}
+
+.acordeon{
+  width: 600px;
+  margin-top: 300px;
+  margin-left: 130px;
+}
