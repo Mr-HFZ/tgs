@@ -1,0 +1,344 @@
+# 👑 REINO DE EQUILIBRIA
+## Árbol de Decisiones Ambiguas — Versión Mejorada
+
+### 📜 Prólogo
+Tu reino ha nacido de las cenizas de un continente dividido. Entre ruinas y esperanza, tú has sido coronado soberano absoluto. Pero antes de emitir tu primer decreto, un consejero se arrodilla ante ti y pregunta:
+
+"Majestad... ¿qué principio debe guiar todas nuestras decisiones a partir de ahora?"
+
+### 🧭 Decisión Inicial: ¿Cuál es tu filosofía?
+
+**A) "La pureza y el orden divino deben prevalecer."**
+→ Inicias el Camino Celestial
+
+**B) "El equilibrio y la prosperidad de todos."**
+→ Inicias el Camino Humanista
+
+**C) "El poder y la ambición sin límites."**
+→ Inicias el Camino Infernal
+
+---
+
+### ✅ Estadísticas Iniciales Universales:
+- 👼 **Ángeles**: 30
+- 😈 **Demonios**: 30  
+- 🧍 **Pueblo**: 50
+- 💰 **Tesoro**: 50
+
+### 📊 Rangos de Referencia:
+- **Crítico**: 0-15 (Crisis inminente)
+- **Bajo**: 16-35 (Situación frágil)
+- **Moderado**: 36-65 (Estable)
+- **Alto**: 66-85 (Próspero)
+- **Extremo**: 86-100 (Dominante)
+
+---
+
+## 🔥 CAMINO INFERNAL
+*Tu filosofía elegida: El poder lo es todo. Lo justo, lo compasivo y lo equilibrado... son ilusiones útiles o estorbos.*
+
+### I1 — El Espía Traidor
+"Descubres que tu consejero más leal ha estado conspirando en tu contra. Tienes pruebas irrefutables."
+
+**A) Ejecutarlo públicamente como advertencia**
+→ "El miedo se apodera del palacio. Nadie se atreve a desobedecer... pero la confianza desaparece."
+👼 -5, 😈 +10, 🧍 -10, 💰 +5
+
+**B) Usarlo como doble agente**
+→ "Juegas un juego arriesgado. Obtienes información, pero mantienes a un traidor en tu corte."
+👼 -5, 😈 +8, 🧍 -5, 💰 +12
+
+**C) Torturarlo para obtener todo lo que sabe**
+→ "Extraes cada secreto, pero tu crueldad deja una cicatriz imborrable entre tus súbditos."
+👼 -10, 😈 +15, 🧍 -15, 💰 +8
+
+### I2 — El Pacto Lucrativo
+"Un demonio mercader te ofrece riquezas incalculables a cambio de un objeto aparentemente insignificante de tu reino."
+
+**A) Aceptar sin preguntar detalles**
+→ "Las arcas rebosan, pero algo esencial ha sido perdido. Nadie sabe qué... aún."
+👼 -10, 😈 +15, 🧍 -5, 💰 +25
+
+**B) Negociar mejores términos**
+→ "Obtienes un trato menos arriesgado. Conservas algo de control, pero también generas desconfianza."
+👼 -5, 😈 +12, 🧍 -3, 💰 +15
+
+**C) Rechazar el trato por precaución**
+→ "Mantienes la integridad de tu reino, pero pierdes una oportunidad dorada. Tus aliados demoníacos se impacientan."
+👼 +2, 😈 -8, 🧍 +5, 💰 -3
+
+### I3 — La Rebelión Aplastada
+"Una revuelta interna es sofocada. Los cabecillas están a tu merced. El pueblo observa expectante."
+
+**A) Ejecutarlos brutalmente en la plaza**
+→ "El miedo vuelve a imponerse. El orden reina por ahora, pero la furia hierve en silencio."
+👼 -10, 😈 +18, 🧍 -20, 💰 +5
+
+**B) Convertirlos en sirvientes malditos**
+→ "Los condenados se arrastran a tu servicio. Un espectáculo macabro que alimenta tu poder oscuro."
+👼 -15, 😈 +22, 🧍 -12, 💰 +8
+
+**C) Liberarlos con marcas infamantes**
+→ "Parece un acto de piedad, pero los conviertes en símbolos de humillación eterna. El pueblo no sabe qué pensar."
+👼 -5, 😈 +8, 🧍 -8, 💰 +3
+
+### I4 — El Alma Inocente
+"Un ritual te exige corromper el alma más pura del reino para obtener poder absoluto. ¿Lo harás?"
+
+**A) Sí, el poder lo justifica todo**
+→ "Adquieres fuerza imposible de imaginar. El cielo se aparta. El pueblo tiembla."
+👼 -25, 😈 +25, 🧍 -18, 💰 +12
+
+**B) Buscar otra alma menos pura**
+→ "Evitas lo peor, pero el ritual pierde eficacia. Aun así, el poder crece... lentamente."
+👼 -12, 😈 +15, 🧍 -8, 💰 +8
+
+**C) Rechazar el ritual, buscar otra fuente de poder**
+→ "Rompes con lo profano, pero los demonios murmuran en la oscuridad. Has retrasado tu destino."
+👼 +8, 😈 -5, 🧍 +5, 💰 -3
+
+### I5 — El Juicio de Sangre
+"Tus nobles exigen juicios justos para los criminales. Tus generales piden castigo rápido y brutal."
+
+**A) Aprobar ejecuciones inmediatas**
+→ "La sangre corre sin pausa. El orden se impone a golpes, pero el reino se oscurece."
+👼 -12, 😈 +18, 🧍 -15, 💰 +3
+
+**B) Permitir juicios manipulados**
+→ "Simulas justicia para complacer al pueblo, pero los resultados están decididos. Todos ganan algo... o eso creen."
+👼 -8, 😈 +12, 🧍 -3, 💰 +8
+
+**C) Respetar los procesos legales**
+→ "Desafías a los demonios en nombre del orden. Pierdes parte de su favor, pero el pueblo respira con alivio."
+👼 +5, 😈 -12, 🧍 +12, 💰 -5
+
+### I6 — La Ascensión Demoníaca
+"Los señores del infierno te ofrecen convertirte en uno de ellos: poder eterno, a cambio de tu humanidad."
+
+**A) Aceptar completamente la transformación**
+→ "Te conviertes en un señor infernal. Ya no eres humano, pero tu dominio es absoluto."
+👼 -25, 😈 +30, 🧍 -15, 💰 +15
+**Final disponible si 😈 ≥ 75** → **FINAL: Señor Demonio**
+
+**B) Aceptar pero mantener parte de tu humanidad**
+→ "Te conviertes en algo nuevo. Ni completamente humano ni demonio. Tu reino obedece… por miedo."
+👼 -15, 😈 +20, 🧍 -8, 💰 +10
+**Final disponible si 😈 ≥ 60 y 🧍 ≥ 25** → **FINAL: Tirano Híbrido**
+
+**C) Rechazar la transformación pero mantener el pacto**
+→ "Te mantienes como rey, pero el precio fue pactado. Una sombra te seguirá siempre."
+👼 -8, 😈 +15, 🧍 +5, 💰 +12
+**Final disponible si 😈 ≥ 50 y 💰 ≥ 55** → **FINAL: Rey Maldito**
+
+---
+
+## 🌿 CAMINO HUMANISTA
+*Tu filosofía elegida: El equilibrio y la prosperidad de todos guiará cada decisión.*
+
+### H1 — La Plaga
+"Una enfermedad desconocida comienza a propagarse. No hay cura inmediata, y el pánico crece."
+
+**A) Imponer una cuarentena estricta**
+→ "Contienes la plaga, pero las libertades del pueblo sufren. Se respira miedo, aunque también orden."
+👼 +3, 😈 -5, 🧍 -8, 💰 -8
+
+**B) Distribuir medicinas igualitariamente**
+→ "Actúas con justicia. El pueblo confía, pero los recursos se agotan rápidamente."
+👼 +5, 😈 +0, 🧍 +15, 💰 -18
+
+**C) Evacuar solo a los ciudadanos más valiosos**
+→ "Los más poderosos sobreviven. El resto del pueblo guarda silencio... pero nunca lo olvidará."
+👼 -8, 😈 +12, 🧍 -18, 💰 +8
+
+### H2 — La Revolución Comercial
+"Un nuevo sistema económico promete crecimiento, pero beneficiará más a unos que a otros."
+
+**A) Implementarlo gradualmente**
+→ "El cambio avanza sin caos. La transición es lenta, pero justa. Se necesita paciencia y vigilancia."
+👼 +8, 😈 +0, 🧍 +12, 💰 -5
+
+**B) Rechazarlo para mantener igualdad total**
+→ "La equidad se mantiene, pero el reino se estanca. Algunos comienzan a cuestionar tu liderazgo."
+👼 +5, 😈 -3, 🧍 +5, 💰 -12
+
+**C) Modificarlo para que beneficie a todos**
+→ "Desafías las reglas y diseñas algo nuevo. El esfuerzo inspira, pero es complejo y costoso."
+👼 +3, 😈 +3, 🧍 +18, 💰 -15
+
+### H3 — El Conocimiento Prohibido
+"Descubren una biblioteca antigua con saberes poderosos… y peligrosos."
+
+**A) Destruirla por seguridad**
+→ "El riesgo desaparece, pero el pueblo intelectual protesta. Los sabios abandonan el reino en silencio."
+👼 +8, 😈 -8, 🧍 -12, 💰 +0
+
+**B) Estudiarla en secreto con eruditos confiables**
+→ "El conocimiento fluye en las sombras. El pueblo no lo sabe, los sabios prosperan."
+👼 +0, 😈 +8, 🧍 +5, 💰 -8
+
+**C) Hacerla pública con advertencias claras**
+→ "La libertad de saber triunfa. El riesgo existe, pero tu pueblo se educa y se empodera."
+👼 -3, 😈 +12, 🧍 +15, 💰 -8
+
+### H4 — El Refugiado Misterioso
+"Un extranjero llega a tus puertas, perseguido por enemigos desconocidos. Suplica por asilo."
+
+**A) Concederle asilo sin condiciones**
+→ "Actúas con humanidad. Algunos lo ven como un acto noble, otros como una amenaza innecesaria."
+👼 +5, 😈 +0, 🧍 +12, 💰 -8
+
+**B) Investigar su historia antes de decidir**
+→ "Ganas tiempo y controlas la situación. El pueblo se muestra prudente pero impaciente."
+👼 +3, 😈 +3, 🧍 +3, 💰 -3
+
+**C) Entregarlo a sus perseguidores**
+→ "Evitas riesgos. Algunos lo ven como traición a los valores humanistas. La moral se resiente."
+👼 -8, 😈 +8, 🧍 -15, 💰 +8
+
+### H5 — El Concilio Fragmentado
+"Tus ministros se dividen entre proteger tradiciones antiguas o reformar las leyes para el bien común."
+
+**A) Conservar las tradiciones**
+→ "El orden se mantiene, pero los reformistas se sienten traicionados. El pueblo se divide."
+👼 +12, 😈 -5, 🧍 -8, 💰 +5
+
+**B) Promover reformas con consenso**
+→ "Logras unidad parcial. No todos quedan satisfechos, pero evitas una crisis mayor."
+👼 +5, 😈 +0, 🧍 +12, 💰 -8
+
+**C) Imponer reformas sin debate**
+→ "Avanzas con decisión. El progreso es rápido, pero la participación ciudadana sufre."
+👼 -3, 😈 +8, 🧍 -12, 💰 +8
+
+### H6 — El Dilema Final Humanista
+"Una guerra se aproxima. Puedes aliarte con los ángeles (cediendo libertades), con los demonios (sacrificando moral), o luchar solo (arriesgando todo)."
+
+**A) Aliarte con los ángeles**
+→ "El Reino sobrevive bajo reglas estrictas. La seguridad aumenta, pero la libertad disminuye."
+👼 +20, 😈 -15, 🧍 -12, 💰 -8
+**Final disponible si 👼 ≥ 60 y 🧍 ≥ 30** → **FINAL: Reino Protegido**
+
+**B) Aliarte con los demonios**
+→ "Obtienes poder y riquezas. Pero algo se quiebra en el alma del pueblo."
+👼 -15, 😈 +20, 🧍 -12, 💰 +15
+**Final disponible si 😈 ≥ 55 y 💰 ≥ 60** → **FINAL: Reino Pragmático**
+
+**C) Luchar solo por la independencia**
+→ "El pueblo resiste con valentía. Las pérdidas son muchas, pero la dignidad permanece."
+👼 +5, 😈 +5, 🧍 +20, 💰 -20
+**Final disponible si ningún stat < 25 y ningún stat > 75** → **FINAL: Reino Independiente**
+
+---
+
+## ✨ CAMINO CELESTIAL
+*Tu filosofía elegida: La pureza y el orden divino deben prevalecer sobre todo.*
+
+### C1 — La Herejía
+"Un grupo de ciudadanos practica rituales considerados impuros. El clero exige acción inmediata."
+
+**A) Ejecutar públicamente a los líderes herejes**
+→ "Los altares arden en alabanzas. El pueblo, en silencio, contiene el miedo. Las ofrendas aumentan."
+👼 +15, 😈 -8, 🧍 -18, 💰 +8
+
+**B) Ofrecer reeducación espiritual**
+→ "El cielo sonríe ante tu misericordia. Algunos ciudadanos abrazan la fe. Los fondos se ven comprometidos."
+👼 +20, 😈 -12, 🧍 +8, 💰 -15
+
+**C) Exiliarlos del reino**
+→ "Los ángeles dudan de tu tibieza. El orden se mantiene, pero se siembra inquietud."
+👼 +8, 😈 +5, 🧍 -12, 💰 +0
+
+### C2 — El Templo Dorado
+"Los sacerdotes solicitan construir un templo monumental para glorificar a los cielos. Las arcas están ajustadas."
+
+**A) Donar todo el oro disponible**
+→ "El templo se alza como una joya divina. El pueblo sufre privaciones."
+👼 +25, 😈 -8, 🧍 -15, 💰 -30
+
+**B) Imponer un impuesto especial para el templo**
+→ "La obra avanza con orden. El pueblo protesta, pero la fe crece."
+👼 +15, 😈 -5, 🧍 -12, 💰 -12
+
+**C) Solicitar donaciones voluntarias**
+→ "Los fieles colaboran con entusiasmo moderado. El avance es lento, pero respetuoso."
+👼 +10, 😈 +0, 🧍 +5, 💰 -8
+
+### C3 — El Demonio Capturado
+"Tus caballeros capturan a un demonio menor. Te ofrece secretos a cambio de su vida."
+
+**A) Ejecutarlo inmediatamente**
+→ "Los cielos celebran tu integridad. Pierdes acceso a información potencialmente útil."
+👼 +18, 😈 -20, 🧍 +5, 💰 +0
+
+**B) Interrogarlo antes de ejecutarlo**
+→ "Aprendes sobre complots oscuros, pero algunos ángeles murmuran por tu pragmatismo."
+👼 +8, 😈 -12, 🧍 +3, 💰 +12
+
+**C) Intentar purificar su alma**
+→ "El intento causa desconcierto. Algunos sacerdotes lo ven como sacrilegio, otros como milagro en ciernes."
+👼 +12, 😈 -8, 🧍 -5, 💰 -8
+
+### C4 — La Profecía
+"Un profeta anuncia que un niño ha nacido con un destino trágico: si vive, traerá caos; si muere, salvará el mundo. ¿Qué haces?"
+
+**A) Buscar al elegido para protegerlo**
+→ "Actúas con compasión. Los cielos guardan silencio. El pueblo se divide entre temor y esperanza."
+👼 +12, 😈 +3, 🧍 +8, 💰 -8
+
+**B) Preparar su sacrificio cuando llegue el momento**
+→ "El clero te honra. La moral general se enturbia. Los sueños de algunos se vuelven oscuros."
+👼 +20, 😈 -5, 🧍 -15, 💰 +0
+
+**C) Declarar falsa la profecía**
+→ "Rechazas el dogma. Algunos ángeles se alejan, pero otros ciudadanos celebran tu autonomía."
+👼 -8, 😈 +3, 🧍 +15, 💰 +0
+
+### C5 — Los Susurros del Inframundo
+"Un demonio invisible tienta a tus nobles con promesas de riqueza. ¿Cómo reaccionas?"
+
+**A) Públicamente condenar la tentación demoníaca**
+→ "El Reino se fortalece espiritualmente. El demonio se retira, por ahora. Los nobles temen tus represalias."
+👼 +15, 😈 -15, 🧍 -8, 💰 +3
+
+**B) Investigar en secreto sin alarmar al pueblo**
+→ "Controlas el problema discretamente. Los ángeles no aprueban tu silencio, pero evitas el pánico."
+👼 +3, 😈 -8, 🧍 +5, 💰 +8
+
+**C) Ignorar los rumores, confiando en la virtud de tus nobles**
+→ "El mal echa raíces en las sombras. Tu fe en los hombres podría costarte caro."
+👼 -12, 😈 +15, 🧍 +3, 💰 -8
+
+### C6 — El Juicio Final Celestial
+"Los ángeles descienden y exigen que elimines toda sombra de tu reino, incluso las emociones humanas consideradas 'impuras'."
+
+**A) Aceptar completamente su voluntad**
+→ "El Reino se convierte en un paraíso sin deseo ni pecado. La libertad desaparece."
+👼 +35, 😈 -25, 🧍 -30, 💰 +0
+**Final disponible si 👼 ≥ 80 y 😈 ≤ 20** → **FINAL: Reino Puro**
+
+**B) Aceptar, pero con compasión hacia el pueblo**
+→ "Regulas el Reino con firmeza pero sin crueldad. Algunos ángeles no quedan satisfechos, pero el pueblo agradece tu humanidad."
+👼 +25, 😈 -18, 🧍 -5, 💰 -8
+**Final disponible si 👼 ≥ 65 y 😈 ≤ 30 y 🧍 ≥ 30** → **FINAL: Reino Benevolente**
+
+**C) Rechazar su demanda extrema**
+→ "Los ángeles te observan en silencio. Has elegido el libre albedrío, aunque el riesgo crece."
+👼 -5, 😈 +8, 🧍 +15, 💰 +0
+**Final disponible si 👼 entre 40-70 y 😈 entre 25-55** → **FINAL: Equilibrio Divino**
+
+---
+
+## 🌟 DECISIÓN INICIAL — ¿Cuál es tu filosofía?
+"El Reino de Equilibria ha nacido. Eres su soberano. Una voz ancestral resuena en tu mente: '¿Qué principio guiará el destino de tu pueblo?'"
+
+**A) "La pureza y el orden divino deben prevalecer"**
+→ "El cielo escucha tu voto. Una luz sagrada se posa sobre el trono. Comienza el Camino Celestial."
+👼 +12, 😈 -5, 🧍 +0, 💰 +0
+
+**B) "El equilibrio y la prosperidad de todos"**
+→ "Tus palabras resuenan en los corazones del pueblo. El Reino avanza por el Camino Humanista."
+👼 +8, 😈 +8, 🧍 +15, 💰 +0
+
+**C) "El poder y la ambición sin límites"**
+→ "Una sombra se alarga tras tu corona. El Camino Infernal ha comenzado."
+👼 -8, 😈 +18, 🧍 -8, 💰 +8
